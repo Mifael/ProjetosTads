@@ -1,0 +1,16 @@
+{
+  "name": "01-helo-word",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/vendor/",
+    "test",
+    "tests"
+  ]
+}

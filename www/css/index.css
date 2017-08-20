@@ -1,0 +1,63 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  font-size: 2em;
+}
+
+.card .card-content {
+  padding-top: 5px;
+  padding-bottom: 3px;  
+}
+
+.row {
+  margin-bottom: 0px; 
+}
+
+.col.l6.s12 {
+  margin-left: 50px; 
+}
+
+.btn-floating.btn-large {
+    width: 40px;
+    height: 40px;
+}
+.btn-floating.btn-large i {
+    line-height: 42px;
+}
+
+.page-footer {
+  padding-top: 0px;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: max-content;
+    height: fit-content;
+}
+
+body{
+  padding-top: 9px;
+}
+
+div#numeroPessoas{
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  
+}
+
+div#numeroVacas{
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  
+}
+
+div#numeroOvnis{
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  
+}
+
+

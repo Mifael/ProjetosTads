@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="www/vendor/materialize/dist/css/materialize.min.css" media="screen,projection"
+  />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <title>Cont++</title>
+</head>
+
+<body>
+
+  <div class="container hoverable">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="red-text">Cont++</h5>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="chip">
+          <img src="img/iflogo.png" alt="Contact Person"> - IFRS -
+        </div>
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a href="#pessoas">PESSOAS</a></li>
+          <li class="tab"><a class="active" href="#vacas">VACAS</a></li>
+          <li class="tab"><a href="#ovnis">OVNIS</a></li>
+        </ul>
+      </div>
+
+      <div class="card-content grey lighten-4">
+        <div id="pessoas">
+          <p>Cont++ Pessoas</p>
+          <table>
+            <tr>
+              <td>
+                <div  id="numeroPessoas"></div>
+              </td>
+              <td>
+                <a class="right btn-floating btn-large waves-effect waves-light red" id="resetarPessoas">
+                <i class="material-icons">loop</i>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <img class="responsive-img" src="img/pessoas.jpg" id="imgPessoas">
+          <a class="btn-floating btn-large waves-effect waves-light red" id="incrementarPessoas">
+          <i class="material-icons">add</i>
+        </a>
+        </div>
+
+        <div id="vacas">
+          <p>Cont++ Vacas</p>
+          <table>
+            <tr>
+              <td>
+                <div id="numeroVacas"></div>
+              </td>
+              <td>
+                <a class="right btn-floating btn-large waves-effect waves-light red" id="resetarVacas">
+                <i class="material-icons">loop</i>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <img class="responsive-img" src="img/vacas.jpg" id="imgVacas">
+          <a class="btn-floating btn-large waves-effect waves-light red" id="incrementarVacas">
+          <i class="material-icons">add</i>
+        </a>
+        </div>
+
+        <div id="ovnis">
+          <p>Cont++ Ovnis</p>
+          <table>
+            <tr>
+              <td>
+                <div  id="numeroOvnis"></div>
+              </td>
+              <td>
+                <a class="right btn-floating btn-large waves-effect waves-light red" id="resetarOvnis">
+                <i class="material-icons">loop</i>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <img class="responsive-img" src="img/ovnis.jpg" id="imgOvnis">
+          <a class="btn-floating btn-large waves-effect waves-light red" id="incrementarOvnis">
+          <i class="material-icons">add</i>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="www/vendor/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="www/vendor/materialize/dist/js/materialize.min.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+<footer class="page-footer">
+  <div class="container">
+    <h7 class="center-align">© 2017 Mifael G. Moraes</h7>
+  </div>
+</footer>
+
+</html>
